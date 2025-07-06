@@ -7,7 +7,7 @@ import {useEffect, useState} from "react";
 function App() {
     //nasa's api is coolecte in this state
     const[data,setData] = useState(null);
-    const[loading,setLoading] = useState(false);
+    //const[loading,setLoading] = useState(false);
     const [showModal, setShowModal] = useState(false);
 
     function handleShowModal() {
